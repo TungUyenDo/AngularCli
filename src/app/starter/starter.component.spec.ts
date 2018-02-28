@@ -5,7 +5,7 @@ import { RouterTestingModule } from '@angular/router/testing';
 import { StarterComponent } from './starter.component';
 import { StarterHeaderComponent } from './starter-header/starter-header.component';
 import { StarterLeftSideComponent } from './starter-left-side/starter-left-side.component';
-import { StarterContentComponent } from './starter-content/starter-content.component';
+import { StarterContentComponent } from './starter-content/childfirst/starter-content.component';
 import { StarterFooterComponent } from './starter-footer/starter-footer.component';
 import { StarterControlSidebarComponent } from './starter-control-sidebar/starter-control-sidebar.component';
 

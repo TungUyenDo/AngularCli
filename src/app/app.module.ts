@@ -7,7 +7,9 @@ import { AppComponent } from './app.component';
 import { StarterComponent } from './starter/starter.component';
 import { StarterHeaderComponent } from './starter/starter-header/starter-header.component';
 import { StarterLeftSideComponent } from './starter/starter-left-side/starter-left-side.component';
-import { StarterContentComponent } from './starter/starter-content/starter-content.component';
+import {StarterContentComponent} from './starter/starter-content/childfirst/starter-content.component';
+import {Child2} from './starter/starter-content/child2/child2.component';
+import {Child1} from './starter/starter-content/child1/child1.component';
 import { StarterFooterComponent } from './starter/starter-footer/starter-footer.component';
 import { StarterControlSidebarComponent } from './starter/starter-control-sidebar/starter-control-sidebar.component';
 import { AdminComponent } from './admin/admin.component';
@@ -25,6 +27,8 @@ import { AdminDashboard1Component } from './admin/admin-dashboard1/admin-dashboa
     StarterHeaderComponent,
     StarterLeftSideComponent,
     StarterContentComponent,
+    Child1,
+    Child2,
     StarterFooterComponent,
     StarterControlSidebarComponent
   ],
