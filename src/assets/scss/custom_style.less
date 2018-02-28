@@ -1,8 +1,40 @@
-.main-header .logo {
-    background-color: yellow;
-    height: 70px;
+body {
+    background-color: #F5F5F5
 }
 
-.main-sidebar, .left-side{
-    padding-top: 70px
+.content-wrapper,
+.right-side,
+.main-foot {
+    margin-left: 300px;
+}
+
+.content-wrapper {
+    margin-left: 325px;
+    background-color: #fff;
+    margin-right: 25px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    @media (max-width: 767px) {
+        margin-right: 0;
+        margin-left: 0
+    }
+}
+
+.main-sidebar[_ngcontent-c3],
+.left-side[_ngcontent-c3] {
+    padding-top: 70px;
+    width: 300px;
+    background-color: #404040;
+}
+
+@media (max-width: 767px) {
+    .sidebar-open .content-wrapper {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+    .content-wrapper,
+    .right-side,
+    .main-foot {
+        margin-left: 0
+    }
 }

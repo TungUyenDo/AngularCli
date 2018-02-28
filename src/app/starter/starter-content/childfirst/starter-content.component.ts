@@ -5,7 +5,7 @@ declare var AdminLTE: any;
 @Component({
   selector: 'app-starter-content',
   templateUrl: './starter-content.component.html',
-  styleUrls: ['./starter-content.component.css']
+  styleUrls: ['./starter-content.component.less']
 })
 export class StarterContentComponent implements OnInit {
 

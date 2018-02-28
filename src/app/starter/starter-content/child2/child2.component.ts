@@ -5,7 +5,7 @@ declare var AdminLTE: any;
 @Component({
   selector: 'app-child2-content',
   templateUrl: './child2.component.html',
-  styleUrls: ['./child2.component.css']
+  styleUrls: ['./child2.component.less']
 })
 export class Child2 implements OnInit {
 
